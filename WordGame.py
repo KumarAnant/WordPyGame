@@ -192,7 +192,7 @@ for round in range(1, maxRound+1, 1):
             if((ctr -1) % 5 == 0):
                 print("\n\n")
             print("\t\t", ctr, "-", wordDictGame[ctr], end = " ")
-        print("\n\nWords already attempted: ", userInputList, "\nScore: ", userScore)
+        print("\n\nWords already attempted: ", userInputList, "\nScore: ", userScore )
 
         user = input("\n> ")
         #Check if the user input is a number or not
